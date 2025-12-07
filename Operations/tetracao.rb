@@ -12,7 +12,7 @@ def tetracao()
     result = base**result
   end
   
-  if result > 10 * 100
+  if result > 10 ** 100 # Um Googol
     puts "Resultado grande demais."
   else
     puts result
